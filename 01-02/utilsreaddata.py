@@ -2,6 +2,8 @@
 
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 def symbol_to_path(symbol, base_dir="../data"):
     """Return CSV file path given ticker symbol."""
@@ -16,7 +18,8 @@ def get_data(symbols, dates):
     for symbol in symbols:
         # TODO: Read and join data for each symbol
         df_temp = pd.read_csv(symbol_to_path(symbol), index_col="Date",
-                              parse_dates=True, usecols=['Date', 'Adj Close'])
+                              parse_dates=True, usecols=['Date', 'Adj Close'],
+                              na_values=['nan'])
         # rename to prevent clash
         df_temp = df_temp.rename(columns={'Adj Close': symbol})
         df = df.join(df_temp, how='left')  # use default how='left'
@@ -25,16 +28,30 @@ def get_data(symbols, dates):
     return df
 
 
+def normalize_data(df):
+    """Normalize stock prices using the first row of the dataframe."""
+    return df / df.ix[0, :]
+
+
+def plot_data(df, title="Stock prices"):
+    """Plot stock prices"""
+    ax = df.plot(title=title, fontsize=2)
+    ax.set_xlabel("Date")
+    ax.set_ylabel("Price")
+    plt.show()
+
+
 def test_run():
     # Define a date range
     dates = pd.date_range('2016-01-04', '2016-01-29')
 
     # Choose stock symbols to read
-    symbols = ['AAPL']
+    symbols = ['AAPL', 'IBM']
 
     # Get stock data
     df = get_data(symbols, dates)
-    print(df)
+    print(df.ix['2016-01-06':'2016-01-29', symbols])
+    plot_data(normalize_data(df))
 
 
 if __name__ == "__main__":

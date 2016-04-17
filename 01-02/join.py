@@ -20,7 +20,7 @@ def test_run():
     df1 = df1.join(dfSPY, how='inner')
 
     # Read in more stocks
-    symbols = ['AAPL']
+    symbols = ['AAPL', 'IBM']
     for symbol in symbols:
         df_temp = pd.read_csv("../data/{}.csv".format(symbol), index_col="Date",
                               parse_dates=True, usecols=['Date', 'Adj Close'],

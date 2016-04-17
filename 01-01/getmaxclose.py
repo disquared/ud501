@@ -20,7 +20,7 @@ def get_mean_volume(symbol):
 
 
 def test_run():
-    for symbol in ['AAPL']:
+    for symbol in ['AAPL', 'IBM']:
         print("Max close")
         print(symbol, get_max_close(symbol))
         print("Mean volume")
