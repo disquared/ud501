@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0bad49f-3db5-49f7-a856-3f4f00f0cc1c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-01/getmaxclose.py" afterPath="$PROJECT_DIR$/01-01/getmaxclose.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-02/join.py" afterPath="$PROJECT_DIR$/01-02/join.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01-02/utilsreaddata.py" afterPath="$PROJECT_DIR$/01-02/utilsreaddata.py" />
     </list>
     <ignored path="Machine-Learning-for-Trading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="join.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-02/join.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createarrays.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-03/createarrays.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -100,6 +107,7 @@
         <option value="$PROJECT_DIR$/01-02/utilsreaddata.py" />
         <option value="$PROJECT_DIR$/01-01/getmaxclose.py" />
         <option value="$PROJECT_DIR$/01-02/join.py" />
+        <option value="$PROJECT_DIR$/01-03/createarrays.py" />
       </list>
     </option>
   </component>
@@ -194,6 +202,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="01-03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Machine-Learning-for-Trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ud501" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="01-02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -231,24 +253,7 @@
       <recent name="$PROJECT_DIR$/../Machine-Learning-for-Trading/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getmaxclose">
-    <configuration default="false" name="readcsv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01-01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Machine-Learning-for-Trading" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-01/readcsv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.createarrays">
     <configuration default="false" name="getmaxclose" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,6 +318,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Machine-Learning-for-Trading" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-02/utilsreaddata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="createarrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01-03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machine-Learning-for-Trading" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-03/createarrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -452,19 +474,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.readcsv (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.getmaxclose" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plotdata" />
-      <item index="3" class="java.lang.String" itemvalue="Python.join" />
-      <item index="4" class="java.lang.String" itemvalue="Python.utilsreaddata" />
+      <item index="0" class="java.lang.String" itemvalue="Python.getmaxclose" />
+      <item index="1" class="java.lang.String" itemvalue="Python.plotdata" />
+      <item index="2" class="java.lang.String" itemvalue="Python.join" />
+      <item index="3" class="java.lang.String" itemvalue="Python.utilsreaddata" />
+      <item index="4" class="java.lang.String" itemvalue="Python.createarrays" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getmaxclose" />
-        <item index="1" class="java.lang.String" itemvalue="Python.utilsreaddata" />
-        <item index="2" class="java.lang.String" itemvalue="Python.join" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plotdata" />
-        <item index="4" class="java.lang.String" itemvalue="Python.readcsv (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.createarrays" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getmaxclose" />
+        <item index="2" class="java.lang.String" itemvalue="Python.utilsreaddata" />
+        <item index="3" class="java.lang.String" itemvalue="Python.join" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plotdata" />
       </list>
     </recent_temporary>
   </component>
@@ -493,9 +515,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3073593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3073593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -758,8 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-02/join.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-03/createarrays.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
         </state>
       </provider>
