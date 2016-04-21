@@ -3,8 +3,8 @@ import pandas as pd
 
 def test_run():
     # Define test range
-    start_date = '2016-01-04'
-    end_date = '2016-01-29'
+    start_date = '2015-01-01'
+    end_date = '2015-01-31'
     dates = pd.date_range(start_date, end_date)
 
     # Create an empty dataframe
@@ -29,6 +29,8 @@ def test_run():
         df_temp = df_temp.rename(columns={'Adj Close': symbol})
         df1 = df1.join(df_temp)  # use default how='left'
 
+    # Reverse order of rows
+    df1 = df1.iloc[::-1]
     print(df1)
 
 

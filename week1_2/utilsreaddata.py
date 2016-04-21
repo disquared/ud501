@@ -43,14 +43,14 @@ def plot_data(df, title="Stock prices"):
 
 def test_run():
     # Define a date range
-    dates = pd.date_range('2016-01-04', '2016-01-29')
+    dates = pd.date_range('2015-01-01', '2015-03-31')
 
     # Choose stock symbols to read
     symbols = ['AAPL', 'IBM']
 
     # Get stock data
     df = get_data(symbols, dates)
-    print(df.ix['2016-01-06':'2016-01-29', symbols])
+    print(df.ix['2015-01-01':'2015-03-31', symbols])
     plot_data(normalize_data(df))
 
 
