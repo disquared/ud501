@@ -33,7 +33,7 @@ def normalize_data(df):
     return df / df.ix[0, :]
 
 
-def plot_data(df, title="Stock prices"):
+def plot_data(df, title="Stock prices", xlabel="Date", ylabel="Price"):
     """Plot stock prices"""
     ax = df.plot(title=title, fontsize=2)
     ax.set_xlabel("Date")
